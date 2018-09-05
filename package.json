@@ -4,9 +4,10 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ben Howdle <hello@benhowdle.im> (http://benhowdle.im/)",
+  "author": "Amir R Muntasser <arkmuntasser@gmail.com> (https://github.com/arkmuntasser/)",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.9.0",
