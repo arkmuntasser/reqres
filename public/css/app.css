@@ -11,7 +11,7 @@ html, body {
   height: 100%; }
 
 body {
-  font-family: "rooney-sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
@@ -88,7 +88,7 @@ hr {
   color: #fff;
   font-size: 26px;
   text-shadow: 0 2px 0px #000;
-  font-family: "freight-sans-pro", sans-serif;
+  font-family: "Source Code Pro", sans-serif;
   font-weight: 700;
   text-transform: uppercase; }
 @media only screen and (max-width: 900px) {
@@ -157,7 +157,7 @@ hr {
 
 span.code {
   font-size: 12px;
-  font-family: Monaco, Consolas, "Lucida Console", monospace;
+  font-family: "Source Code Pro", Monaco, Consolas, "Lucida Console", monospace;
   border: 1px solid rgba(95, 69, 120, 0.1);
   border-radius: 3px;
   padding: 6px; }
@@ -390,7 +390,7 @@ pre {
   height: auto;
   margin: 12px 0;
   font-size: 12px;
-  font-family: Monaco, Consolas, "Lucida Console", monospace;
+  font-family: "Source Code Pro", Monaco, Consolas, "Lucida Console", monospace;
   background-color: rgba(231, 213, 255, 0.15);
   border-radius: 3px;
   padding: 12px;
