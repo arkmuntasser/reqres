@@ -12,7 +12,6 @@ ReqRes is a bare-bones ExpressJS application.
 * `npm install`
 * Make sure you have Gulp installed globally (only needed for asset compilation)
 * `node app.js` or use [Nodemon](https://github.com/remy/nodemon)
-* Run `gulp` if you're modifying the Sass
 
 ## Tour
 
