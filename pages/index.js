@@ -39,9 +39,9 @@ const Home = () => {
 
       <div className='hero'>
         <h1 className='title'>SV ReqRes</h1>
-        <p className='description'>
+        {/* <p className='description'>
           To get started, edit <code>pages/index.js</code> and save to reload.
-        </p>
+        </p> */}
       </div>
 
       {sections.map(({ name, data }) => (
