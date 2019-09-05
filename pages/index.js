@@ -39,9 +39,6 @@ const Home = () => {
 
       <div className='hero'>
         <h1 className='title'>SV ReqRes</h1>
-        {/* <p className='description'>
-          To get started, edit <code>pages/index.js</code> and save to reload.
-        </p> */}
       </div>
 
       {sections.map(({ name, data }) => (
@@ -66,6 +63,7 @@ const Home = () => {
 
         :global(main) {
           margin: 0 auto;
+          padding: 0 16px;
           max-width: 980px;
         }
 
