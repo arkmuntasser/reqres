@@ -1,4 +1,10 @@
+import Cors from 'micro-cors';
+
 const listings = require('../../data/listings');
 const getData = require('../../utils/getData');
 
-module.exports = getData(listings);
+const cors = Cors({
+	allowMethods: ['GET', 'HEAD'],
+});
+
+module.exports = cors(getData(listings));
